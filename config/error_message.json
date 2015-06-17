@@ -1,0 +1,7 @@
+{
+  "error_index":["userNE","passIC","tokenNE","tokenIC"],
+  "userNE": "用户不存在",
+  "passIC": "密码错误",
+  "tokenNE": "token不存在",
+  "tokenIC": "token错误"
+}
