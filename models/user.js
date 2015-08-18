@@ -1,7 +1,7 @@
 /**
  * Created by THINK on 2015/6/17.
  */
-var db = require('../config/db.json');
+var db = require('../config/db.json').redis;
 var redis = require('redis');
 var client = redis.createClient(db.port, db.host, db.options);
 var jwt = require('jsonwebtoken');

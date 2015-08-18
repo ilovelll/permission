@@ -1,6 +1,3 @@
-/**
- * Created by THINK on 2015/6/17.
- */
 var jwt = require('jsonwebtoken');
 
 module.exports = function(req, res, next) {
